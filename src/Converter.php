@@ -33,7 +33,10 @@ namespace swisscoordinates;
  */
 
 /**
- * Wrapper class for swiss coordinates with composer support.
+ * Convert WGS (Word Geodetic System) coordinates into CH (Swiss-Coordinates) and vice versa.
+ * 
+ * + Lat/Long = Latitude And Longitude
+ * + WGS = Word Geodetic System
  * 
  * Usage example:
  * 

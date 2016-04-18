@@ -1,7 +1,7 @@
 {
     "name": "nadar/swiss-coordinates",
-    "type": "library",
     "description": "Converting swiss coordinates to Lat/Long global coordinates.",
+    "type": "library",
     "keywords": ["lat", "long", "geocords", "swiss", "php"],
     "homepage": "https://github.com/nadar/swiss-coordinates",
     "license": "MIT",
