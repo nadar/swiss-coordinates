@@ -35,15 +35,25 @@ namespace swisscoordinates;
 /**
  * Convert WGS (Word Geodetic System) coordinates into CH (Swiss-Coordinates) and vice versa.
  * 
+ * Informations about Coordinates:
+ * 
  * + Lat/Long = Latitude And Longitude
  * + WGS = Word Geodetic System
+ * + Lat = Y-Axis
+ * + Long = X-Axis
+ * 
+ * Example swiss coordaintes:
+ * 
+ * + Rigi: Y = 679520, X = 212273
+ * + Zürich-Seebach: Y = 684592, X = 252857
  * 
  * Usage example:
  * 
  * ```php
  * use swisscoordinates\Converter;
  * 
- * echo Converter::WGStoCHy(1.000, 2.00000);
+ * echo Converter::CHtoWGSlat(679520, 212273); // 47.056709
+ * echo Converter::CHtoWGSlong(679520, 212273); // 8.485306
  * ```
  * 
  * @author Federal Office of Topography swisstopo, Wabern, CH
