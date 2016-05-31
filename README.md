@@ -15,6 +15,12 @@ Wrapper class with composer support based on http://www.swisstopo.admin.ch/inter
 + Rigi: Y = 679520, X = 212273
 + Zürich-Seebach: Y = 684592, X = 252857
 
+### Installation
+
+```
+composer require nadar/swiss-coordinates
+```
+
 ### Usage example:
 
 ```php
