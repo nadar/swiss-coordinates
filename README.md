@@ -3,14 +3,14 @@ Convert WGS (Word Geodetic System) coordinates into CH (Swiss-Coordinates) and v
 
 Wrapper class with composer support based on http://www.swisstopo.admin.ch/internet/swisstopo/de/home/products/software/products/skripts.html
 
-### Informations about Coordinates:
+### Informations about coordinates:
 
 + Lat/Long = Latitude And Longitude
 + WGS = Word Geodetic System
 + Lat = Y-Axis
 + Long = X-Axis
 
-### Example swiss coordaintes:
+### Example swiss coordinates:
 
 + Rigi: Y = 679520, X = 212273
 + Zürich-Seebach: Y = 684592, X = 252857
